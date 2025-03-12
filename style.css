@@ -3,19 +3,17 @@
     padding: 0;
     box-sizing: border-box;
   }
-  /* html, body, .header, .footer, .education-card, .left-side, .right-side{
-    background-image: url('https://cdn.pixabay.com/photo/2017/08/29/23/58/cloud-2695361__340.jpg');
-    background-size: cover; 
-    background-position: center center; 
-    background-attachment: fixed; 
-
-  } */
   
   body {
     font-family: Arial, sans-serif;
     margin-top: 100px;
     height: 100%;
     min-height: 100%;
+  }
+
+  html{
+    background: url('https://th.bing.com/th/id/OIP.kN8mX5_A_0G5IpoUIDKhgAHaE8?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+  background-size: cover;
   }
   main{
     height: 100%;
@@ -112,9 +110,9 @@
   .container .pic{
     width: 350px;
     height: 350px;
-    border-radius: 50%;
+    border-radius: 10px;
     overflow: hidden;
-    border: 10px solid #444;
+    /* border: 10px solid #444; */
     box-shadow: 5px 10px 25px rgba(0,0,0,0.5); 
     position: relative;
   }
