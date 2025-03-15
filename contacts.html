@@ -16,10 +16,13 @@
         <div class="contact-page">
             <div class="left-side">
                 <h2>Send a Message</h2>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" required></textarea>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    
+                    <input type="hidden" name="access_key" value="4ffb4636-bc88-467e-bdfb-169722f0f9ba">
+
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
                     <button type="submit">Send Message</button>
                 </form>
             </div> 
