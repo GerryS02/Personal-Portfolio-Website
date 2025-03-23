@@ -671,17 +671,20 @@
 }
 
 .project-card .hover-overlay a {
-  color: #fff;
+  color: grey;
   text-decoration: none;
   font-size: 18px;
   padding: 10px 20px;
-  background-color: #007bff;
-  border-radius: 5px;
+  background-color: white;
+  border-radius: 8px;
+  border: solid grey;
   transition: background-color 0.3s ease;
 }
 
 .project-card .hover-overlay a:hover {
-  background-color: #0056b3;
+  background-image: linear-gradient(to right, #808080, #d3d3d3);
+  border-color: #808080;
+  color: white;
 }
 
 .project-card:hover .hover-overlay {
