@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.text())
         .then(data => {
           document.getElementById(elementId).innerHTML = data;
+
+          // If it's the footer, run the script to update the year
+          if (elementId === 'footer') {
+            // Ensure the footer is loaded and then update the year
+            setTimeout(function() {
+              document.getElementById("year").textContent = new Date().getFullYear();
+            }, 0);
+          }
         })
         .catch(err => {
           console.error('Error loading component:', err);
