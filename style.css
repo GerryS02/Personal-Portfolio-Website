@@ -27,7 +27,7 @@
     top: 0;
     left: 0;
     width: 100%; 
-    z-index: 1;
+    z-index: 1000;
   }
 
   hr{
@@ -695,13 +695,8 @@
 /* Media Queries for Responsive Layout */
 @media (max-width: 768px) {
   .project-card {
-    flex: 1 1 calc(50% - 40px); /* 2 cards per row on smaller screens */
+    flex: 1 1 100%; /* 2 cards per row on smaller screens */
   }
 }
 
-@media (max-width: 480px) {
-  .project-card {
-    flex: 1 1 100%; /* 1 card per row on very small screens */
-  }
-}
 
