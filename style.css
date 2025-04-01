@@ -627,7 +627,7 @@
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
-  flex: 1 1 calc(33.333% - 10px); /* Responsive layout, 3 cards per row */
+  flex: 1 1 calc(33.333% - 40px); /* Responsive layout, 3 cards per row */
 }
 
 .card-image img {
@@ -636,6 +636,7 @@
   margin-bottom: 15px; /* Adds space between the image and the content */
   height: 180px;
   object-fit: cover;
+  border: 1px solid #333;
 }
 
 .card-content {
@@ -646,6 +647,7 @@
 .project-card h3 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #333;
 }
 
 .project-card p {
