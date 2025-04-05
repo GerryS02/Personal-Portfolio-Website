@@ -498,41 +498,6 @@
     left: 0;
     width: 100%; 
  }
- 
-  /* .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-  }
-
-  .footer .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .contact {
-    margin-right: 40px; 
-    text-align: center;
-    padding: 20px;
-  }
-
-  .contact p {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-  }
-
-  .contact a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-
-  .contact a:hover {
-    color: grey;
-    text-decoration: underline;
-  }  */
 
   /* Mobile Navigation - Hidden by Default  (move above)*/
 #menu-toggle {
@@ -703,5 +668,3 @@
     flex: 1 1 100%; /* 2 cards per row on smaller screens */
   }
 }
-
-
