@@ -78,7 +78,7 @@ hr {
 
 .content p {
   font-size: 1.5rem;
-  color: grey;
+  color: #333333;
   text-align: justify;
 }
 
@@ -102,7 +102,8 @@ h2 {
 
 .container p {
   font-size: 1.5rem;
-  color: grey;
+  /* color: grey; */
+  color: #333333;
   text-align: center;
   margin-right: 10px;
   margin-top: 20px;
@@ -226,10 +227,10 @@ h2 {
   transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
-.education-card:hover {
+/* .education-card:hover {
   box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
-}
+} */
 
 .education-card img {
   width: 250px;
@@ -644,6 +645,11 @@ h2 {
   font-size: 16px;
   color: #555;
   margin-bottom: 15px;
+}
+
+.project-card:hover {
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
 
 .project-card .hover-overlay {
