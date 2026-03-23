@@ -151,6 +151,29 @@ h2 {
   font-size: 16px;
 }
 
+/* Updated layout for larger screens */
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row; /* Aligns content side by side */
+    gap: 80px; /* Larger gap between the sections */
+  }
+
+  .container .pic {
+    width: 400px; /* Increase image size for better visibility on larger screens */
+    height: 400px;
+  }
+
+  .container p {
+    font-size: 1.8rem; /* Increase font size for better readability */
+  }
+
+  #text {
+    font-size: 1.5rem; /* Increase text size for better readability */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
