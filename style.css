@@ -725,3 +725,26 @@ h2 {
     height: calc(100vh - 50px); /* Reduce height for smaller header/footer */
   }
 }
+
+.open-to-opportunities {
+  background-color: #f5f5f5; /* Subtle background to stand out without being too bold */
+  border: 1px solid #ddd; /* Light border to separate it from the rest of the content */
+  padding: 15px 20px; /* Padding for spacing around the text */
+  border-radius: 8px; /* Rounded corners to match your other design elements */
+  text-align: center; /* Center the text */
+  color: #333; /* Dark text for readability */
+  font-size: 1.2rem; /* Slightly larger font for emphasis */
+  margin-top: 20px; /* Space above the element */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow to give a subtle lift */
+  transition: background-color 0.3s, transform 0.3s ease; /* Smooth hover transition */
+}
+
+.open-to-opportunities:hover {
+  background-color: #f0f0f0; /* Slightly darker on hover */
+  transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+.open-to-opportunities p {
+  margin: 0;
+  font-weight: bold; /* Bold text to draw attention */
+}
