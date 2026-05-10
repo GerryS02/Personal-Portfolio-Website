@@ -23,5 +23,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load the header and footer after the DOM is ready
     loadComponent('header.html', 'header');
     loadComponent('footer.html', 'footer');
+
+    //scroll
+    window.addEventListener("scroll", function () {
+    const header = document.querySelector(".header");
+
+    if (!header) return; // important safety check
+
+    if (window.scrollY > 10) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
   });
+});
   
